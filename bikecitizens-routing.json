@@ -1,0 +1,599 @@
+{
+    "data_format": 1,
+    "data_url": "https://raw.githubusercontent.com/BikeCitizens/bikecitizens-taginfo/master/bikecitizens-routing.json",
+    "data_updated": "20150922T073730Z",
+    "project": {
+        "name": "Bike Citizens Bicycle Navigation",
+        "description": "Bicycle routing app and online route planner designed for urban cyclists.",
+        "project_url": "http://map.bikecitizens.net",
+        "icon_url": "https://map.bikecitizens.net/assets/favicons/favicon-16x16.png",
+        "contact_name": "Martin Raifer",
+        "contact_email": "martin@bikecitizens.net"
+    },
+    "tags": [
+        {
+            "key": "highway",
+            "value": "path",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "cycleway",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "footway",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "pedestrian",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "track",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "service",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "living_street",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "residential",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "road",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "unclassified",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "tertiary",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "secondary",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "secondary_link",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "primary",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "primary_link",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "trunk",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "trunk_link",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "trunk",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "motorway",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "motorway_link",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "service",
+            "object_types": ["way"]
+        },
+        {
+            "key": "highway",
+            "value": "steps",
+            "object_types": ["way"]
+        },
+
+        {
+            "key": "maxspeed",
+            "object_types": ["way"]
+        },
+        {
+            "key": "lanes",
+            "object_types": ["way"]
+        },
+        {
+            "key": "oneway",
+            "object_types": ["way"]
+        },
+        {
+            "key": "junction",
+            "value": "roundabout",
+            "object_types": ["way"]
+        },
+        {
+            "key": "bridge",
+            "object_types": ["way"]
+        },
+        {
+            "key": "tunnel",
+            "object_types": ["way"]
+        },
+
+        {
+            "key": "railway",
+            "value": "tram",
+            "object_types": ["way"]
+        },
+
+        {
+            "key": "smoothness",
+            "object_types": ["way"]
+        },
+        {
+            "key": "smoothness",
+            "value": "excellent",
+            "object_types": ["way"]
+        },
+        {
+            "key": "smoothness",
+            "value": "good",
+            "object_types": ["way"]
+        },
+        {
+            "key": "smoothness",
+            "value": "intermediate",
+            "object_types": ["way"]
+        },
+        {
+            "key": "smoothness",
+            "value": "bad",
+            "object_types": ["way"]
+        },
+
+        {
+            "key": "tracktype",
+            "object_types": ["way"]
+        },
+        {
+            "key": "tracktype",
+            "value": "grade1",
+            "object_types": ["way"]
+        },
+        {
+            "key": "tracktype",
+            "value": "grade2",
+            "object_types": ["way"]
+        },
+        {
+            "key": "tracktype",
+            "value": "grade3",
+            "object_types": ["way"]
+        },
+
+        {
+            "key": "surface",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "asphalt",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "concrete",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "concrete:lanes",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "concrete:plates",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "metal",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "paved",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "cobblestone:flattened",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "compacted",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "grass_paver",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "paving_stones",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "paving_stones:20",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "paving_stones:30",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "compacted_gravel",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "tartan",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "fine_gravel",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "wood",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "cobblestone",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "pebblestone",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "gravel",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "unpaved",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "ground",
+            "object_types": ["way"]
+        },
+
+        {
+            "key": "access",
+            "object_types": ["node", "way"]
+        },
+        {
+            "key": "bicycle",
+            "object_types": ["node", "way"]
+        },
+        {
+            "key": "foot",
+            "object_types": ["node", "way"]
+        },
+        {
+            "key": "vehicle",
+            "object_types": ["node", "way"]
+        },
+        {
+            "key": "bicycle",
+            "value": "designated",
+            "object_types": ["way"]
+        },
+        {
+            "key": "bicycle",
+            "value": "official",
+            "object_types": ["way"]
+        },
+        {
+            "key": "bicycle",
+            "value": "dismount",
+            "object_types": ["way"]
+        },
+        {
+            "key": "foot",
+            "value": "designated",
+            "object_types": ["way"]
+        },
+
+        {
+            "key": "oneway:bicycle",
+            "object_types": ["way"]
+        },
+        {
+            "key": "bicycle:oneway",
+            "object_types": ["way"]
+        },
+
+        {
+            "key": "cycleway",
+            "value": "shared",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "lane",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "shared_lane",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "share_busway",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "sharrow",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "track",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "yes",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "true",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "unmarked_lane",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "segregated",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "designated",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "opposite",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "opposite_lane",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "opposite_shared_lane",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "opposite_share_busway",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway",
+            "value": "opposite_track",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway:left",
+            "object_types": ["way"]
+        },
+        {
+            "key": "cycleway:right",
+            "object_types": ["way"]
+        },
+        {
+            "key": "segregated",
+            "object_types": ["way"]
+        },
+
+        {
+            "key": "lcn",
+            "object_types": ["way"]
+        },
+        {
+            "key": "rcn",
+            "object_types": ["way"]
+        },
+        {
+            "key": "ncn",
+            "object_types": ["way"]
+        },
+        {
+            "key": "icn",
+            "object_types": ["way"]
+        },
+        {
+            "key": "lcn_ref",
+            "object_types": ["way"]
+        },
+        {
+            "key": "rcn_ref",
+            "object_types": ["way"]
+        },
+        {
+            "key": "ncn_ref",
+            "object_types": ["way"]
+        },
+        {
+            "key": "icn_ref",
+            "object_types": ["way"]
+        },
+
+
+        {
+            "key": "barrier",
+            "object_types": ["node"]
+        },
+        {
+            "key": "barrier",
+            "value": "gate",
+            "object_types": ["node"]
+        },
+        {
+            "key": "barrier",
+            "value": "lift_gate",
+            "object_types": ["node"]
+        },
+
+        {
+            "key": "landuse",
+            "value": "meadow",
+            "object_types": ["area"]
+        },
+        {
+            "key": "landuse",
+            "value": "grass",
+            "object_types": ["area"]
+        },
+        {
+            "key": "landuse",
+            "value": "village_green",
+            "object_types": ["area"]
+        },
+        {
+            "key": "landuse",
+            "value": "recreation_ground",
+            "object_types": ["area"]
+        },
+        {
+            "key": "landuse",
+            "value": "orchard",
+            "object_types": ["area"]
+        },
+        {
+            "key": "natural",
+            "value": "grassland",
+            "object_types": ["area"]
+        },
+        {
+            "key": "natural",
+            "value": "coastline",
+            "object_types": ["way", "area"]
+        },
+        {
+            "key": "natural",
+            "value": "water",
+            "object_types": ["area"]
+        },
+        {
+            "key": "natural",
+            "value": "wood",
+            "object_types": ["area"]
+        },
+        {
+            "key": "leisure",
+            "value": "garden",
+            "object_types": ["area"]
+        },
+        {
+            "key": "leisure",
+            "value": "nature_reserve",
+            "object_types": ["area"]
+        },
+        {
+            "key": "leisure",
+            "value": "park",
+            "object_types": ["area"]
+        },
+
+        {
+            "key": "type",
+            "value": "route",
+            "object_types": ["relation"]
+        },
+        {
+            "key": "route",
+            "value": "bicycle",
+            "object_types": ["relation"]
+        },
+        {
+            "key": "network",
+            "value": "lcn",
+            "object_types": ["relation"]
+        },
+        {
+            "key": "network",
+            "value": "rcn",
+            "object_types": ["relation"]
+        },
+        {
+            "key": "network",
+            "value": "ncn",
+            "object_types": ["relation"]
+        },
+        {
+            "key": "network",
+            "value": "icn",
+            "object_types": ["relation"]
+        },
+        {
+            "key": "state",
+            "value": "proposed",
+            "object_types": ["relation"]
+        }
+
+
+    ]
+}
