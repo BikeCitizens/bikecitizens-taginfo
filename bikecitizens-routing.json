@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/BikeCitizens/bikecitizens-taginfo/master/bikecitizens-routing.json",
-    "data_updated": "20150922T073730Z",
+    "data_updated": "20220905161300Z",
     "project": {
         "name": "Bike Citizens Bicycle Navigation",
         "description": "Bicycle routing app and online route planner designed for urban cyclists.",
