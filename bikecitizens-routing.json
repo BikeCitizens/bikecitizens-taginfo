@@ -225,6 +225,11 @@
         },
         {
             "key": "surface",
+            "value": "chipseal",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
             "value": "metal",
             "object_types": ["way"]
         },
@@ -236,6 +241,12 @@
         {
             "key": "surface",
             "value": "cobblestone:flattened",
+            "object_types": ["way"],
+            "description": "historical"
+        },
+        {
+            "key": "surface",
+            "value": "sett",
             "object_types": ["way"]
         },
         {
@@ -256,12 +267,14 @@
         {
             "key": "surface",
             "value": "paving_stones:20",
-            "object_types": ["way"]
+            "object_types": ["way"],
+            "description": "historical"
         },
         {
             "key": "surface",
             "value": "paving_stones:30",
-            "object_types": ["way"]
+            "object_types": ["way"],
+            "description": "historical"
         },
         {
             "key": "surface",
@@ -286,6 +299,11 @@
         {
             "key": "surface",
             "value": "cobblestone",
+            "object_types": ["way"]
+        },
+        {
+            "key": "surface",
+            "value": "unhewn_cobblestone",
             "object_types": ["way"]
         },
         {
